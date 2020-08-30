@@ -1,0 +1,133 @@
+@media all and (max-width: 10000px)
+{
+    /* Sidebar */
+
+    .sidebar
+    {
+        max-width: 320px;
+        min-width: 320px;
+        width: 100%;
+    }
+
+    .sidebar .search
+    {
+        justify-content: center;
+        display: flex;
+        padding: 20px 0;
+    }
+
+    .search input
+    {
+        right: 14pt;
+        font-size: 12pt;
+        padding: 10px 40px 10px 20px;
+        width: 200px;
+    }
+
+    .search .fas.fa-search.icon
+    {
+        left: 240px;
+    }
+
+    .sidebar_layout
+    {
+        padding: 25px;
+    }
+
+    .menu_burger
+    {
+        margin: 30px;
+    }
+
+    /* Page */
+    
+    #index
+    {
+        padding-top: 75px;
+        margin-right: 7.5%;
+    }
+
+    /* Section 1 : paragraph picture */
+
+    .paragraph_picture > div
+    {
+        width: 45%;
+    }
+
+    .paragraph_picture > div:first-child > *
+    {
+        margin-bottom: 25px;
+    }
+
+    /* Section 2 : definitions */
+
+    .def > div:first-child
+    {
+        align-items: center;
+        height: 100%;
+        justify-content: center;
+        width: 30%;
+    }
+
+    .def > div:first-child > div
+    {
+        height: fit-content;
+        padding: 16pt;
+        width: fit-content;
+    }
+
+    .def > div:first-child > div > img
+    {
+        width: 32pt;
+    }
+
+    .def > div:last-child
+    {
+        width: 60%;
+    }
+
+    /* Section 3 : figures table */
+
+    .figures_table img
+    {
+        width: 100%;
+    }
+
+    .figures_table .figure
+    {
+        padding: 5%;
+        width: 80%;
+    }
+
+    .figures_table .figure:first-child
+    {
+        border-right: 1px solid #D8D8D8;
+        padding-left: unset;
+    }
+
+    .figures_table .figure:last-child
+    {
+        padding-right: unset;
+    }
+
+    .figures_table .row
+    {
+        display: flex;
+    }
+
+    .figures_table .row > .figure
+    {
+        border-bottom: 1px solid #D8D8D8;
+    }
+
+    .figures_table .row:first-child > .figure
+    {
+        padding-top: unset;
+    }
+
+    .figures_table .row:last-child > .figure
+    {
+        border-bottom: none;
+        padding-bottom: unset;
+    }
+}

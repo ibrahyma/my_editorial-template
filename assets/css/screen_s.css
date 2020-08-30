@@ -1,0 +1,95 @@
+@media all and (max-width: 767px)
+{
+    /* Sidebar */
+ 
+    .sidebar
+    {
+        width: 288px;
+    }
+
+    /* Menu burger */
+
+    .menu_burger
+    {
+        color: #7F888F;
+        background-color: #D8D8D8;
+        border-radius: 5px;
+        margin-top: 20px;
+        padding: 7px 21px;
+    }
+
+    /* Page */
+
+    #index
+    {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    /* Top */
+
+    .top
+    {
+        flex-wrap: wrap-reverse;
+    }
+
+    .top .main_title
+    {
+        width: 100%;
+    }
+
+    .top .icons
+    {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+
+    /* Section 1 : paragraph picture */
+
+    .paragraph_picture
+    {
+        flex-direction: column-reverse;
+    }
+
+    .paragraph_picture > div
+    {
+        width: 100%; 
+    }
+
+    .paragraph_picture > div:last-child
+    {
+        margin-bottom: 40px; 
+    }
+
+    /* Section 2 : definitions */
+
+    .def
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .def > div:first-child
+    {
+        margin-bottom: 30px;
+    }
+
+    .def > div:first-child > div
+    {
+        height: fit-content;
+        padding: 8pt;
+        width: fit-content;
+    }
+
+    .def > div:first-child > div > img
+    {
+        width: 16pt;
+    }
+
+    .def > div:last-child
+    {
+        width: 100%;
+    }
+}

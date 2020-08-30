@@ -1,0 +1,71 @@
+@media all and (max-width: 1199px)
+{
+    /* Sidebar */
+
+    .sidebar
+    {
+        display: none;
+        width: 331px;
+        z-index: 3;
+    }
+
+    .sidebar .search
+    {
+        padding: 6.25% 0;
+    }
+
+    .sidebar_layout
+    {
+        padding: 6.25%;
+    }
+
+    /* Menu burger */
+
+    .menu_burger
+    {
+        position: fixed;
+        z-index: 3;
+    }
+
+    /* Page */
+
+    #index
+    {
+        margin-left: 80px;
+    }
+
+    /* Section 1 : paragraph picture */
+
+    .paragraph_picture
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Section 2 : definitions */
+
+    .def > div:first-child
+    {
+        align-items: center;
+        height: 100%;
+        justify-content: center;
+        width: 30%;
+    }
+
+    .def > div:first-child > div
+    {
+        height: fit-content;
+        padding: 16pt;
+        width: fit-content;
+    }
+
+    .def > div:first-child > div > img
+    {
+        width: 32pt;
+    }
+
+    .def > div:last-child
+    {
+        width: 60%;
+    }
+}

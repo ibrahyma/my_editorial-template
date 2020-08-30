@@ -1,0 +1,41 @@
+@media all and (max-width: 991px)
+{
+    /* Sidebar */
+
+    .sidebar
+    {
+        width: 384px;
+    }
+
+    /* Section 2 : definitions */
+
+    .def
+    {
+        width: 100%;
+    }
+
+    .def > div:first-child
+    {
+        align-items: center;
+        height: 100%;
+        justify-content: center;
+        width: 20%;
+    }
+
+    .def > div:first-child > div
+    {
+        height: fit-content;
+        padding: 16pt;
+        width: fit-content;
+    }
+
+    .def > div:first-child > div > img
+    {
+        width: 32pt;
+    }
+
+    .def > div:last-child
+    {
+        width: 75%;
+    }
+}
